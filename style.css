@@ -87,7 +87,7 @@ h2{
 
 }
 
-@media only screen and (min-width: 320px ) {
+@media only screen and (min-width: 400px ) {
     body{
         background-color: #fdf9f9;
 
@@ -101,7 +101,7 @@ h2{
        
 }
 
-@media only screen and (max-width: 460px ) {
+@media only screen and (max-width: 600px ) {
     body{
         background-color: #fdf9f9;
 
