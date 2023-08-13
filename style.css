@@ -82,7 +82,7 @@ h2{
 }
 .nav-icons{
     display: flex;
-    gap: 0.5em;;
+    gap: 0.2rem;;
     justify-content: center;
 
 }
@@ -96,19 +96,4 @@ h2{
     .container-capture{
         width: 100%;
     }      
-}
-
-@media only screen and (max-width: 680px ) {
-    body{
-        background-color: #fdf9f9;
-
-    }
-
-.container-capture{
-    width: 100%;
-}
-
-    
-    
-    
 }
