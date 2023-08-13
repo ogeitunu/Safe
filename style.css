@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    height: 100%;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(./images/picsgit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+   
+}
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;   
+}
+
+
+.content{
+    padding: 5.3rem ;
+    box-sizing: border-box;
+    background-color: rgb(250, 40, 40);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+h1{
+
+    font-weight: 600;
+    font-size: 1.7rem;
+    justify-items: center;
+    text-align: center;
+
+}
+.nav-list li{
+    text-decoration:underline;
+    text-align: center;
+
+    }
+
+    .nav-list a{
+        color: rgb(238, 22, 22);
+    }
+    .nav-icons a{
+        color: rgb(62, 62, 248);
+    }
+
+
+p{
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing:spacing 2rem;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-align: center;
+    justify-content: center;
+
+}
+.container-capture{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf9f9;
+    height: 98%;
+    position: relative;
+}
+.nav-icons{
+    display: flex;
+    gap: 0.5em;;
+    justify-content: center;
+
+}
+
+@media only screen and (min-width: 280px ) {
+    body{
+        background-color: #fdf9f9;
+
+    }
+    
+    .container-capture{
+        width: 100%;
+    }
+    
+        
+       
+}
+
+@media only screen and (max-width: 460px ) {
+    body{
+        background-color: #fdf9f9;
+
+    }
+
+.container-capture{
+    width: 100%;
+}
+
+    
+    
+    
+}
